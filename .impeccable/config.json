@@ -1,0 +1,126 @@
+{
+  "buildPath": "code",
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "wide-tracking",
+        "value": "*",
+        "files": [
+          ".impeccable/mocks/decision/assigned.html"
+        ],
+        "createdAt": "2026-10-22T01:03:14.119Z",
+        "reason": "assistant decision: throwaway direction-round sketch under .impeccable/mocks, not shipping UI"
+      },
+      {
+        "rule": "oversized-h1",
+        "value": "*",
+        "files": [
+          ".impeccable/mocks/decision/assigned.html"
+        ],
+        "createdAt": "2026-10-22T01:03:14.139Z",
+        "reason": "assistant decision: throwaway direction-round sketch under .impeccable/mocks, not shipping UI"
+      },
+      {
+        "rule": "oversized-h1",
+        "value": "*",
+        "files": [
+          ".impeccable/mocks/decision/model-pick.html"
+        ],
+        "createdAt": "2026-10-22T01:03:14.164Z",
+        "reason": "assistant decision: throwaway direction-round sketch under .impeccable/mocks, not shipping UI"
+      },
+      {
+        "rule": "cream-palette",
+        "value": "*",
+        "files": [
+          ".impeccable/mocks/decision/model-pick.html"
+        ],
+        "createdAt": "2026-10-22T01:03:14.182Z",
+        "reason": "assistant decision: throwaway direction-round sketch under .impeccable/mocks, not shipping UI"
+      },
+      {
+        "rule": "cream-palette",
+        "value": "*",
+        "files": [
+          ".impeccable/mocks/decision/challenger-azulejo.html"
+        ],
+        "createdAt": "2026-10-22T01:03:14.197Z",
+        "reason": "assistant decision: throwaway direction-round sketch under .impeccable/mocks, not shipping UI"
+      },
+      {
+        "rule": "radial-halo",
+        "value": "*",
+        "files": [
+          ".impeccable/mocks/decision/challenger-azulejo.html"
+        ],
+        "createdAt": "2026-10-22T01:03:25.769Z",
+        "reason": "assistant decision: throwaway direction-round sketch under .impeccable/mocks, not shipping UI"
+      },
+      {
+        "rule": "repeating-stripes-gradient",
+        "value": "*",
+        "files": [
+          ".impeccable/mocks/decision/challenger-azulejo.html"
+        ],
+        "createdAt": "2026-10-22T01:03:25.788Z",
+        "reason": "assistant decision: throwaway direction-round sketch under .impeccable/mocks, not shipping UI"
+      },
+      {
+        "rule": "cramped-padding",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-10-22T02:04:05.711Z",
+        "reason": "finish reviewer confirmed false positive: full-bleed bands inset by .wrap gutters; .reading/.facts rows are deliberate ruled rows"
+      },
+      {
+        "rule": "cramped-padding",
+        "value": "*",
+        "files": [
+          "privacy.html"
+        ],
+        "createdAt": "2026-10-22T02:04:05.732Z",
+        "reason": "finish reviewer confirmed false positive: full-bleed bands inset by .wrap gutters; .reading/.facts rows are deliberate ruled rows"
+      },
+      {
+        "rule": "design-system-font",
+        "value": "*",
+        "files": [
+          ".impeccable/mocks/decision/assigned.html"
+        ],
+        "createdAt": "2026-10-22T02:14:20.008Z",
+        "reason": "assistant decision: unchosen direction-round sketch, not shipping UI"
+      },
+      {
+        "rule": "design-system-font",
+        "value": "*",
+        "files": [
+          ".impeccable/mocks/decision/canon.html"
+        ],
+        "createdAt": "2026-10-22T02:14:20.037Z",
+        "reason": "assistant decision: unchosen direction-round sketch, not shipping UI"
+      },
+      {
+        "rule": "design-system-font",
+        "value": "*",
+        "files": [
+          ".impeccable/mocks/decision/challenger-azulejo.html"
+        ],
+        "createdAt": "2026-10-22T02:14:20.059Z",
+        "reason": "assistant decision: unchosen direction-round sketch, not shipping UI"
+      },
+      {
+        "rule": "design-system-font",
+        "value": "*",
+        "files": [
+          ".impeccable/mocks/decision/model-pick.html"
+        ],
+        "createdAt": "2026-10-22T02:14:20.079Z",
+        "reason": "assistant decision: unchosen direction-round sketch, not shipping UI"
+      }
+    ]
+  }
+}

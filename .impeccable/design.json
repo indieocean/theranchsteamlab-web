@@ -1,0 +1,642 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-21T22:30:00-04:00",
+  "title": "Design System: The Ranch STEAM Lab",
+  "extensions": {
+    "colorMeta": {
+      "sky": {
+        "role": "neutral",
+        "displayName": "Noon Sky",
+        "canonical": "oklch(91.7% 0.038 237.1)",
+        "tonalRamp": [
+          "oklch(15% 0.038 237.1)",
+          "oklch(25% 0.038 237.1)",
+          "oklch(35% 0.038 237.1)",
+          "oklch(45% 0.038 237.1)",
+          "oklch(58% 0.038 237.1)",
+          "oklch(70% 0.038 237.1)",
+          "oklch(83% 0.038 237.1)",
+          "oklch(95% 0.038 237.1)"
+        ]
+      },
+      "sky-line": {
+        "role": "neutral",
+        "displayName": "Sky Line",
+        "canonical": "oklch(84.4% 0.064 240.7)",
+        "tonalRamp": [
+          "oklch(15% 0.064 240.7)",
+          "oklch(25% 0.064 240.7)",
+          "oklch(35% 0.064 240.7)",
+          "oklch(45% 0.064 240.7)",
+          "oklch(58% 0.064 240.7)",
+          "oklch(70% 0.064 240.7)",
+          "oklch(83% 0.064 240.7)",
+          "oklch(95% 0.064 240.7)"
+        ]
+      },
+      "ground": {
+        "role": "neutral",
+        "displayName": "Ground",
+        "canonical": "oklch(96.9% 0.012 239.9)",
+        "tonalRamp": [
+          "oklch(15% 0.012 239.9)",
+          "oklch(25% 0.012 239.9)",
+          "oklch(35% 0.012 239.9)",
+          "oklch(45% 0.012 239.9)",
+          "oklch(58% 0.012 239.9)",
+          "oklch(70% 0.012 239.9)",
+          "oklch(83% 0.012 239.9)",
+          "oklch(95% 0.012 239.9)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "canonical": "oklch(24.1% 0.068 260.6)",
+        "tonalRamp": [
+          "oklch(15% 0.068 260.6)",
+          "oklch(25% 0.068 260.6)",
+          "oklch(35% 0.068 260.6)",
+          "oklch(45% 0.068 260.6)",
+          "oklch(58% 0.068 260.6)",
+          "oklch(70% 0.068 260.6)",
+          "oklch(83% 0.068 260.6)",
+          "oklch(95% 0.068 260.6)"
+        ]
+      },
+      "ink-soft": {
+        "role": "neutral",
+        "displayName": "Ink Soft",
+        "canonical": "oklch(38.5% 0.069 258.3)",
+        "tonalRamp": [
+          "oklch(15% 0.069 258.3)",
+          "oklch(25% 0.069 258.3)",
+          "oklch(35% 0.069 258.3)",
+          "oklch(45% 0.069 258.3)",
+          "oklch(58% 0.069 258.3)",
+          "oklch(70% 0.069 258.3)",
+          "oklch(83% 0.069 258.3)",
+          "oklch(95% 0.069 258.3)"
+        ]
+      },
+      "navy": {
+        "role": "primary",
+        "displayName": "Photovoltaic Navy",
+        "canonical": "oklch(29.7% 0.096 260.9)",
+        "tonalRamp": [
+          "oklch(15% 0.096 260.9)",
+          "oklch(25% 0.096 260.9)",
+          "oklch(35% 0.096 260.9)",
+          "oklch(45% 0.096 260.9)",
+          "oklch(58% 0.096 260.9)",
+          "oklch(70% 0.096 260.9)",
+          "oklch(83% 0.096 260.9)",
+          "oklch(95% 0.096 260.9)"
+        ]
+      },
+      "cell": {
+        "role": "primary",
+        "displayName": "Cell Blue",
+        "canonical": "oklch(43.8% 0.137 260.1)",
+        "tonalRamp": [
+          "oklch(15% 0.137 260.1)",
+          "oklch(25% 0.137 260.1)",
+          "oklch(35% 0.137 260.1)",
+          "oklch(45% 0.137 260.1)",
+          "oklch(58% 0.137 260.1)",
+          "oklch(70% 0.137 260.1)",
+          "oklch(83% 0.137 260.1)",
+          "oklch(95% 0.137 260.1)"
+        ]
+      },
+      "monitor": {
+        "role": "secondary",
+        "displayName": "Monitor Night",
+        "canonical": "oklch(24.1% 0.068 260.6)",
+        "tonalRamp": [
+          "oklch(15% 0.068 260.6)",
+          "oklch(25% 0.068 260.6)",
+          "oklch(35% 0.068 260.6)",
+          "oklch(45% 0.068 260.6)",
+          "oklch(58% 0.068 260.6)",
+          "oklch(70% 0.068 260.6)",
+          "oklch(83% 0.068 260.6)",
+          "oklch(95% 0.068 260.6)"
+        ]
+      },
+      "monitor-ink": {
+        "role": "neutral",
+        "displayName": "Monitor Ink",
+        "canonical": "oklch(95.5% 0.019 243.0)",
+        "tonalRamp": [
+          "oklch(15% 0.019 243.0)",
+          "oklch(25% 0.019 243.0)",
+          "oklch(35% 0.019 243.0)",
+          "oklch(45% 0.019 243.0)",
+          "oklch(58% 0.019 243.0)",
+          "oklch(70% 0.019 243.0)",
+          "oklch(83% 0.019 243.0)",
+          "oklch(95% 0.019 243.0)"
+        ]
+      },
+      "monitor-soft": {
+        "role": "neutral",
+        "displayName": "Monitor Haze",
+        "canonical": "oklch(77.7% 0.059 254.2)",
+        "tonalRamp": [
+          "oklch(15% 0.059 254.2)",
+          "oklch(25% 0.059 254.2)",
+          "oklch(35% 0.059 254.2)",
+          "oklch(45% 0.059 254.2)",
+          "oklch(58% 0.059 254.2)",
+          "oklch(70% 0.059 254.2)",
+          "oklch(83% 0.059 254.2)",
+          "oklch(95% 0.059 254.2)"
+        ]
+      },
+      "sun": {
+        "role": "tertiary",
+        "displayName": "Noon Sun",
+        "canonical": "oklch(86.1% 0.159 86.4)",
+        "tonalRamp": [
+          "oklch(15% 0.159 86.4)",
+          "oklch(25% 0.159 86.4)",
+          "oklch(35% 0.159 86.4)",
+          "oklch(45% 0.159 86.4)",
+          "oklch(58% 0.159 86.4)",
+          "oklch(70% 0.159 86.4)",
+          "oklch(83% 0.159 86.4)",
+          "oklch(95% 0.159 86.4)"
+        ]
+      },
+      "sun-halo": {
+        "role": "tertiary",
+        "displayName": "Sun Halo",
+        "canonical": "oklch(93.1% 0.086 91.6)",
+        "tonalRamp": [
+          "oklch(15% 0.086 91.6)",
+          "oklch(25% 0.086 91.6)",
+          "oklch(35% 0.086 91.6)",
+          "oklch(45% 0.086 91.6)",
+          "oklch(58% 0.086 91.6)",
+          "oklch(70% 0.086 91.6)",
+          "oklch(83% 0.086 91.6)",
+          "oklch(95% 0.086 91.6)"
+        ]
+      },
+      "field": {
+        "role": "neutral",
+        "displayName": "Field Grass",
+        "canonical": "oklch(66.5% 0.042 157.8)",
+        "tonalRamp": [
+          "oklch(15% 0.042 157.8)",
+          "oklch(25% 0.042 157.8)",
+          "oklch(35% 0.042 157.8)",
+          "oklch(45% 0.042 157.8)",
+          "oklch(58% 0.042 157.8)",
+          "oklch(70% 0.042 157.8)",
+          "oklch(83% 0.042 157.8)",
+          "oklch(95% 0.042 157.8)"
+        ]
+      },
+      "trees": {
+        "role": "neutral",
+        "displayName": "Treeline",
+        "canonical": "oklch(46.4% 0.043 208.8)",
+        "tonalRamp": [
+          "oklch(15% 0.043 208.8)",
+          "oklch(25% 0.043 208.8)",
+          "oklch(35% 0.043 208.8)",
+          "oklch(45% 0.043 208.8)",
+          "oklch(58% 0.043 208.8)",
+          "oklch(70% 0.043 208.8)",
+          "oklch(83% 0.043 208.8)",
+          "oklch(95% 0.043 208.8)"
+        ]
+      },
+      "band-ripple": {
+        "role": "secondary",
+        "displayName": "Band Blue, Ripple Pool",
+        "canonical": "oklch(35.6% 0.105 259.1)",
+        "tonalRamp": [
+          "oklch(15% 0.105 259.1)",
+          "oklch(25% 0.105 259.1)",
+          "oklch(35% 0.105 259.1)",
+          "oklch(45% 0.105 259.1)",
+          "oklch(58% 0.105 259.1)",
+          "oklch(70% 0.105 259.1)",
+          "oklch(83% 0.105 259.1)",
+          "oklch(95% 0.105 259.1)"
+        ]
+      },
+      "band-deep": {
+        "role": "secondary",
+        "displayName": "Band Blue, Snakedoku",
+        "canonical": "oklch(29.3% 0.088 260.1)",
+        "tonalRamp": [
+          "oklch(15% 0.088 260.1)",
+          "oklch(25% 0.088 260.1)",
+          "oklch(35% 0.088 260.1)",
+          "oklch(45% 0.088 260.1)",
+          "oklch(58% 0.088 260.1)",
+          "oklch(70% 0.088 260.1)",
+          "oklch(83% 0.088 260.1)",
+          "oklch(95% 0.088 260.1)"
+        ]
+      },
+      "band-bright": {
+        "role": "secondary",
+        "displayName": "Band Blue, Hunchwell",
+        "canonical": "oklch(41.6% 0.120 258.3)",
+        "tonalRamp": [
+          "oklch(15% 0.120 258.3)",
+          "oklch(25% 0.120 258.3)",
+          "oklch(35% 0.120 258.3)",
+          "oklch(45% 0.120 258.3)",
+          "oklch(58% 0.120 258.3)",
+          "oklch(70% 0.120 258.3)",
+          "oklch(83% 0.120 258.3)",
+          "oklch(95% 0.120 258.3)"
+        ]
+      },
+      "band-ink": {
+        "role": "neutral",
+        "displayName": "Band Ink",
+        "canonical": "oklch(96.1% 0.019 255.5)",
+        "tonalRamp": [
+          "oklch(15% 0.019 255.5)",
+          "oklch(25% 0.019 255.5)",
+          "oklch(35% 0.019 255.5)",
+          "oklch(45% 0.019 255.5)",
+          "oklch(58% 0.019 255.5)",
+          "oklch(70% 0.019 255.5)",
+          "oklch(83% 0.019 255.5)",
+          "oklch(95% 0.019 255.5)"
+        ]
+      },
+      "band-accent": {
+        "role": "secondary",
+        "displayName": "Tracker Blue",
+        "canonical": "oklch(79.9% 0.104 253.8)",
+        "tonalRamp": [
+          "oklch(15% 0.104 253.8)",
+          "oklch(25% 0.104 253.8)",
+          "oklch(35% 0.104 253.8)",
+          "oklch(45% 0.104 253.8)",
+          "oklch(58% 0.104 253.8)",
+          "oklch(70% 0.104 253.8)",
+          "oklch(83% 0.104 253.8)",
+          "oklch(95% 0.104 253.8)"
+        ]
+      },
+      "band-accent-hover": {
+        "role": "secondary",
+        "displayName": "Tracker Blue, lifted",
+        "canonical": "oklch(87.5% 0.063 252.9)",
+        "tonalRamp": [
+          "oklch(15% 0.063 252.9)",
+          "oklch(25% 0.063 252.9)",
+          "oklch(35% 0.063 252.9)",
+          "oklch(45% 0.063 252.9)",
+          "oklch(58% 0.063 252.9)",
+          "oklch(70% 0.063 252.9)",
+          "oklch(83% 0.063 252.9)",
+          "oklch(95% 0.063 252.9)"
+        ]
+      },
+      "night-sky": {
+        "role": "neutral",
+        "displayName": "Dusk Sky (dark mode)",
+        "canonical": "oklch(26.6% 0.072 260.4)",
+        "tonalRamp": [
+          "oklch(15% 0.072 260.4)",
+          "oklch(25% 0.072 260.4)",
+          "oklch(35% 0.072 260.4)",
+          "oklch(45% 0.072 260.4)",
+          "oklch(58% 0.072 260.4)",
+          "oklch(70% 0.072 260.4)",
+          "oklch(83% 0.072 260.4)",
+          "oklch(95% 0.072 260.4)"
+        ]
+      },
+      "night-ground": {
+        "role": "neutral",
+        "displayName": "Dusk Ground (dark mode)",
+        "canonical": "oklch(22.2% 0.059 260.7)",
+        "tonalRamp": [
+          "oklch(15% 0.059 260.7)",
+          "oklch(25% 0.059 260.7)",
+          "oklch(35% 0.059 260.7)",
+          "oklch(45% 0.059 260.7)",
+          "oklch(58% 0.059 260.7)",
+          "oklch(70% 0.059 260.7)",
+          "oklch(83% 0.059 260.7)",
+          "oklch(95% 0.059 260.7)"
+        ]
+      },
+      "night-monitor": {
+        "role": "secondary",
+        "displayName": "Monitor Night, dark mode",
+        "canonical": "oklch(18.2% 0.048 261.9)",
+        "tonalRamp": [
+          "oklch(15% 0.048 261.9)",
+          "oklch(25% 0.048 261.9)",
+          "oklch(35% 0.048 261.9)",
+          "oklch(45% 0.048 261.9)",
+          "oklch(58% 0.048 261.9)",
+          "oklch(70% 0.048 261.9)",
+          "oklch(83% 0.048 261.9)",
+          "oklch(95% 0.048 261.9)"
+        ]
+      },
+      "night-button": {
+        "role": "primary",
+        "displayName": "Night Button (dark mode)",
+        "canonical": "oklch(51.9% 0.158 260.6)",
+        "tonalRamp": [
+          "oklch(15% 0.158 260.6)",
+          "oklch(25% 0.158 260.6)",
+          "oklch(35% 0.158 260.6)",
+          "oklch(45% 0.158 260.6)",
+          "oklch(58% 0.158 260.6)",
+          "oklch(70% 0.158 260.6)",
+          "oklch(83% 0.158 260.6)",
+          "oklch(95% 0.158 260.6)"
+        ]
+      },
+      "night-button-hover": {
+        "role": "primary",
+        "displayName": "Night Button, hover",
+        "canonical": "oklch(57.2% 0.159 260.7)",
+        "tonalRamp": [
+          "oklch(15% 0.159 260.7)",
+          "oklch(25% 0.159 260.7)",
+          "oklch(35% 0.159 260.7)",
+          "oklch(45% 0.159 260.7)",
+          "oklch(58% 0.159 260.7)",
+          "oklch(70% 0.159 260.7)",
+          "oklch(83% 0.159 260.7)",
+          "oklch(95% 0.159 260.7)"
+        ]
+      },
+      "duotone-shadow": {
+        "role": "neutral",
+        "displayName": "Duotone Shadow",
+        "canonical": "oklch(21.0% 0.059 261.5)",
+        "tonalRamp": [
+          "oklch(15% 0.059 261.5)",
+          "oklch(25% 0.059 261.5)",
+          "oklch(35% 0.059 261.5)",
+          "oklch(45% 0.059 261.5)",
+          "oklch(58% 0.059 261.5)",
+          "oklch(70% 0.059 261.5)",
+          "oklch(83% 0.059 261.5)",
+          "oklch(95% 0.059 261.5)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Hero headline only, one phrase per line."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Product names on the bands."
+      },
+      "headline-section": {
+        "displayName": "Section Headline",
+        "purpose": "About, Contact and privacy titles."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Monitor reading names and the wordmark."
+      },
+      "lead": {
+        "displayName": "Lead",
+        "purpose": "Product pitches, About copy, hero intro."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Running text; 68ch cap on long-form."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Buttons and links, weight 600."
+      },
+      "status": {
+        "displayName": "Status",
+        "purpose": "Monitor status lines in Monitor Haze."
+      }
+    },
+    "shadows": [
+      {
+        "name": "panel-rest",
+        "value": "inset 0 0 0 1px rgba(188,211,240,0.28), 0 2px 0 rgba(255,255,255,0.05), 0 28px 56px -18px rgba(3,10,28,0.7)",
+        "purpose": "Product image frame at rest."
+      },
+      {
+        "name": "panel-tracking",
+        "value": "inset 0 0 0 1px rgba(188,211,240,0.45), 0 2px 0 rgba(255,255,255,0.05), 0 40px 70px -20px rgba(3,10,28,0.8)",
+        "purpose": "Product image frame while the cursor tracks it."
+      },
+      {
+        "name": "sun-halo",
+        "value": "0 0 0 clamp(10px, 1.4vw, 18px) var(--sun-halo)",
+        "purpose": "Ring around the sun disc."
+      },
+      {
+        "name": "lamp-live",
+        "value": "0 0 0 4px rgba(255,201,60,0.22)",
+        "purpose": "Resting glow of the live lamp."
+      },
+      {
+        "name": "glint-glow",
+        "value": "drop-shadow(0 0 6px rgba(142,193,255,0.9)) drop-shadow(0 0 14px rgba(230,242,252,0.45))",
+        "purpose": "Filter glow on the travelling frame glint."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-out",
+        "value": "cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "All state, tilt and reveal transitions."
+      },
+      {
+        "name": "button-state",
+        "value": "200ms ease-out",
+        "purpose": "Button background and press."
+      },
+      {
+        "name": "panel-settle",
+        "value": "600ms ease-out",
+        "purpose": "Panel returns flat after the pointer leaves."
+      },
+      {
+        "name": "panel-track",
+        "value": "120ms linear",
+        "purpose": "Panel follows the pointer while tracking (max ±5deg Y, ±4deg X, perspective 1000px)."
+      },
+      {
+        "name": "sheen-fade",
+        "value": "400ms ease-out",
+        "purpose": "Pointer sheen fades in and out."
+      },
+      {
+        "name": "glint-orbit",
+        "value": "7s linear infinite; delays 0 / -2.3s / -4.6s",
+        "purpose": "Sun glint travelling around each panel frame."
+      },
+      {
+        "name": "product-reveal",
+        "value": "900ms ease-out, clip-path inset(0 0 100% 0) and translateY(24px) to open",
+        "purpose": "One-time reveal of each product image on entering the viewport (rootMargin -15% bottom)."
+      },
+      {
+        "name": "live-lamp-pulse",
+        "value": "2.4s ease-out infinite, ring 0 to 10px",
+        "purpose": "Live lamp on the monitor reads as generating."
+      },
+      {
+        "name": "field-sun-follow",
+        "value": "lerp 0.06 per frame; idle drift period about 90s",
+        "purpose": "Hero sun eases toward the pointer, drifts when idle."
+      },
+      {
+        "name": "field-wake-sweep",
+        "value": "14ms per column stagger, 700ms cubic ease-out; RSL flash at +650ms",
+        "purpose": "Load sweep from flat to tracking, left to right."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "prefers-reduced-motion: reduce",
+        "purpose": "Field draws one still frame and redraws only on pointer; glint parks at 140deg; tilt, reveal, pulse and smooth scroll off."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "narrow-phone",
+        "value": "400px"
+      },
+      {
+        "name": "phone",
+        "value": "560px"
+      },
+      {
+        "name": "stack",
+        "value": "860px"
+      },
+      {
+        "name": "max",
+        "value": "1320px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Monitor-navy action on sky or ground; hover to cell blue. Drawn chevron points right for outbound, down for in-page.",
+      "html": "<a class=\"ds-btn\" href=\"#products\">See what we make</a>",
+      "css": ".ds-btn{display:inline-flex;align-items:center;gap:.6rem;min-height:48px;padding:.8rem 1.4rem;background:var(--monitor,#0B1E3F);color:var(--monitor-ink,#E6F2FC);font-family: var(--font-body, 'Hanken Grotesk', system-ui, sans-serif);font-weight:600;font-size:1.0625rem;text-decoration:none;border-radius:0;transition:background-color 200ms cubic-bezier(.16,1,.3,1),transform 200ms cubic-bezier(.16,1,.3,1)}.ds-btn::after{content:\"\";width:.55em;height:.55em;border-top:2px solid currentColor;border-right:2px solid currentColor;transform:rotate(135deg);margin-top:-.25em;margin-left:.1rem}.ds-btn:hover{background:var(--cell,#1F4E9C)}.ds-btn:active{transform:translateY(1px)}.ds-btn:focus-visible{outline:3px solid var(--focus,#0E2A5C);outline-offset:3px;border-radius:2px}@media (prefers-color-scheme:dark){.ds-btn{background:#2E64C2;color:#fff}.ds-btn:hover{background:#3D74D4}}"
+    },
+    {
+      "name": "Product Button",
+      "kind": "button",
+      "refersTo": "button-product",
+      "description": "Tracker-blue action with navy text, used on every product band.",
+      "html": "<div class=\"ds-band-mini\"><a class=\"ds-btn-product\" href=\"#\">Play on the web</a></div>",
+      "css": ".ds-band-mini{background:#163A72;padding:24px}.ds-btn-product{display:inline-flex;align-items:center;gap:.6rem;min-height:48px;padding:.8rem 1.4rem;background:#8EC1FF;color:#0B1E3F;font-family: var(--font-body, 'Hanken Grotesk', system-ui, sans-serif);font-weight:600;font-size:1.0625rem;text-decoration:none;border-radius:0;transition:background-color 200ms cubic-bezier(.16,1,.3,1),transform 200ms cubic-bezier(.16,1,.3,1)}.ds-btn-product::after{content:\"\";width:.55em;height:.55em;border-top:2px solid currentColor;border-right:2px solid currentColor;transform:rotate(45deg);margin-left:.1rem}.ds-btn-product:hover{background:#B9D9FF}.ds-btn-product:active{transform:translateY(1px)}.ds-btn-product:focus-visible{outline:3px solid #EAF3FF;outline-offset:3px;border-radius:2px}"
+    },
+    {
+      "name": "Masthead Navigation",
+      "kind": "nav",
+      "refersTo": "navigation",
+      "description": "Wordmark plus three anchor links on sky; links underline on hover.",
+      "html": "<header class=\"ds-mast\"><a class=\"ds-brand\" href=\"#\">The Ranch STEAM Lab</a><ul class=\"ds-nav\"><li><a href=\"#\">Products</a></li><li><a href=\"#\">About</a></li><li><a href=\"#\">Contact</a></li></ul></header>",
+      "css": ".ds-mast{display:flex;align-items:center;justify-content:space-between;gap:1rem;padding:1.25rem 24px;background:var(--sky,#CDE8FA);color:var(--ink,#0B1E3F);font-family: var(--font-body, 'Hanken Grotesk', system-ui, sans-serif);}.ds-brand{font-family: var(--font-display, 'Bricolage Grotesque', system-ui, sans-serif);font-weight:800;font-size:1.125rem;letter-spacing:-.01em;color:inherit;text-decoration:none}.ds-nav{display:flex;gap:2rem;list-style:none;margin:0;padding:0;font-weight:500}.ds-nav a{color:inherit;text-decoration:none;padding-block:.4rem;text-underline-offset:.22em;text-decoration-thickness:1px}.ds-nav a:hover{text-decoration:underline}.ds-nav a:focus-visible,.ds-brand:focus-visible{outline:3px solid var(--focus,#0E2A5C);outline-offset:3px;border-radius:2px}"
+    },
+    {
+      "name": "Monitor Readings",
+      "kind": "custom",
+      "refersTo": "monitor-reading",
+      "description": "Inverter strip: lamp, product name, status, optional link. Lamp shape carries state; the live lamp pulses.",
+      "html": "<ul class=\"ds-monitor\"><li class=\"ds-reading\" data-state=\"live\"><span class=\"ds-lamp\"></span><span class=\"ds-rname\">Ripple Pool</span><span class=\"ds-rstatus\">Live on iPhone and web</span><a class=\"ds-rlink\" href=\"#\">Play on the web</a></li><li class=\"ds-reading\" data-state=\"dev\"><span class=\"ds-lamp\"></span><span class=\"ds-rname\">Snakedoku</span><span class=\"ds-rstatus\">In development</span></li><li class=\"ds-reading\" data-state=\"wait\"><span class=\"ds-lamp\"></span><span class=\"ds-rname\">Hunchwell</span><span class=\"ds-rstatus\">Waitlist, launching early 2027</span><a class=\"ds-rlink\" href=\"#\">Get an invite</a></li></ul>",
+      "css": ".ds-monitor{list-style:none;margin:0;padding:0 24px;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));background:var(--monitor,#0B1E3F);color:var(--monitor-ink,#E6F2FC);font-family: var(--font-body, 'Hanken Grotesk', system-ui, sans-serif);}.ds-reading{display:grid;grid-template-columns:auto 1fr;grid-template-areas:\"lamp name\" \". status\" \". link\";column-gap:.75rem;row-gap:.15rem;align-content:start;padding:1.1rem 1.25rem 1.25rem;border-left:1px solid rgba(157,185,220,.25)}.ds-reading:first-child{border-left:0;padding-left:0}.ds-lamp{grid-area:lamp;align-self:center;display:inline-block;width:12px;height:12px;border-radius:50%}.ds-reading[data-state=live] .ds-lamp{background:#FFC93C;box-shadow:0 0 0 4px rgba(255,201,60,.22)}@media (prefers-reduced-motion:no-preference){.ds-reading[data-state=live] .ds-lamp{animation:ds-generating 2.4s cubic-bezier(.16,1,.3,1) infinite}}@keyframes ds-generating{0%{box-shadow:0 0 0 0 rgba(255,201,60,.5)}70%,100%{box-shadow:0 0 0 10px rgba(255,201,60,0)}}.ds-reading[data-state=wait] .ds-lamp{background:conic-gradient(currentColor 0 50%,transparent 0);border:2px solid currentColor}.ds-reading[data-state=dev] .ds-lamp{border:2px dashed currentColor}.ds-rname{grid-area:name;font-family: var(--font-display, 'Bricolage Grotesque', system-ui, sans-serif);font-weight:800;font-size:1.25rem;letter-spacing:-.01em}.ds-rstatus{grid-area:status;color:var(--monitor-soft,#9DB9DC);font-size:.95rem}.ds-rlink{grid-area:link;justify-self:start;font-weight:600;color:var(--monitor-ink,#E6F2FC);text-decoration-color:var(--monitor-soft,#9DB9DC);text-underline-offset:.22em;margin-top:.35rem}.ds-rlink:hover{text-decoration-color:currentColor;text-decoration-thickness:2px}.ds-rlink:focus-visible{outline:3px solid var(--monitor-ink,#E6F2FC);outline-offset:3px;border-radius:2px}"
+    },
+    {
+      "name": "Panel Frame",
+      "kind": "card",
+      "refersTo": "panel-frame",
+      "description": "Product image as a solar panel: 8px frame, travelling glint, tilt toward the cursor (tilt is scripted; hover here shows the tracking shadow and sheen).",
+      "html": "<div class=\"ds-pband\"><span class=\"ds-panel\"><span class=\"ds-glass\"></span><span class=\"ds-sheen\"></span></span></div>",
+      "css": "@property --ds-glint{syntax:\"<angle>\";inherits:false;initial-value:0deg}.ds-pband{background:#163A72;padding:40px}.ds-panel{position:relative;display:block;max-width:360px;padding:8px;background:color-mix(in srgb,#163A72 70%,#000);box-shadow:inset 0 0 0 1px rgba(188,211,240,.28),0 2px 0 rgba(255,255,255,.05),0 28px 56px -18px rgba(3,10,28,.7);transition:transform 600ms cubic-bezier(.16,1,.3,1),box-shadow 600ms cubic-bezier(.16,1,.3,1)}.ds-glass{display:block;aspect-ratio:1.9;background:linear-gradient(135deg,#081733,#2E64C2 60%,#E6F2FC)}.ds-panel::before{content:\"\";position:absolute;inset:0;padding:8px;background:conic-gradient(from var(--ds-glint),transparent 0deg 250deg,rgba(142,193,255,.55) 300deg,#fff 330deg,rgba(255,201,60,.9) 338deg,rgba(142,193,255,.4) 350deg,transparent 360deg);-webkit-mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0);-webkit-mask-composite:xor;mask:linear-gradient(#000 0 0) content-box exclude,linear-gradient(#000 0 0);animation:ds-orbit 7s linear infinite;filter:drop-shadow(0 0 6px rgba(142,193,255,.9));pointer-events:none}@keyframes ds-orbit{to{--ds-glint:360deg}}.ds-sheen{position:absolute;inset:8px;background:radial-gradient(circle at 60% 30%,rgba(230,242,252,.35),rgba(230,242,252,0) 45%);mix-blend-mode:screen;opacity:0;transition:opacity 400ms cubic-bezier(.16,1,.3,1);pointer-events:none}.ds-panel:hover{box-shadow:inset 0 0 0 1px rgba(188,211,240,.45),0 2px 0 rgba(255,255,255,.05),0 40px 70px -20px rgba(3,10,28,.8)}.ds-panel:hover .ds-sheen{opacity:1}@media (prefers-reduced-motion:reduce){.ds-panel::before{animation:none;--ds-glint:140deg}}"
+    },
+    {
+      "name": "Product Band",
+      "kind": "card",
+      "refersTo": "product-band",
+      "description": "Full-bleed band in one of three lab blues: product name, pitch, lamp status, actions.",
+      "html": "<article class=\"ds-product\"><h3 class=\"ds-pname\">Hunchwell</h3><p class=\"ds-pitch\">A voice health diary. Say what you ate, did and felt; it looks for patterns.</p><p class=\"ds-pstatus\"><span class=\"ds-plamp\"></span>Waitlist, launching early 2027</p><a class=\"ds-tlink\" href=\"#\">Get an invite</a></article>",
+      "css": ".ds-product{background:#1D4A8C;color:#EAF3FF;padding:48px 32px;font-family: var(--font-body, 'Hanken Grotesk', system-ui, sans-serif);}.ds-pname{font-family: var(--font-display, 'Bricolage Grotesque', system-ui, sans-serif);font-weight:800;font-size:clamp(2.5rem,6vw,5rem);line-height:.95;letter-spacing:-.035em;margin:0 0 1.5rem}.ds-pitch{font-size:clamp(1.125rem,1.6vw,1.375rem);max-width:30ch;margin:0 0 1.5rem}.ds-pstatus{display:flex;align-items:center;gap:.6rem;color:#BCD3F0;font-weight:500;margin:0 0 2.5rem}.ds-plamp{display:inline-block;width:12px;height:12px;border-radius:50%;color:#8EC1FF;background:conic-gradient(currentColor 0 50%,transparent 0);border:2px solid currentColor}.ds-tlink{color:#EAF3FF;font-weight:600;text-underline-offset:.22em;text-decoration-thickness:1px}.ds-tlink:hover{text-decoration-thickness:2px}.ds-tlink:focus-visible{outline:3px solid #EAF3FF;outline-offset:3px;border-radius:2px}"
+    },
+    {
+      "name": "Facts Table",
+      "kind": "custom",
+      "refersTo": "facts-row",
+      "description": "Definition list of plain legal facts: navy top rule, sky-line dividers.",
+      "html": "<dl class=\"ds-facts\"><div><dt>Legal name</dt><dd>The Ranch STEAM Lab, LLC</dd></div><div><dt>Based in</dt><dd>Babcock Ranch, Florida</dd></div><div><dt>Makes</dt><dd>Games, apps and AI experiments</dd></div></dl>",
+      "css": ".ds-facts{margin:0;padding:0 24px 24px;background:var(--sky,#CDE8FA);color:var(--ink,#0B1E3F);font-family: var(--font-body, 'Hanken Grotesk', system-ui, sans-serif);font-size:1.0625rem}.ds-facts div{display:grid;grid-template-columns:9rem 1fr;gap:1rem;padding-block:.9rem;border-bottom:1px solid var(--sky-line,#A7D2F2)}.ds-facts div:first-child{border-top:2px solid var(--navy,#0E2A5C)}.ds-facts dt{font-weight:600;color:var(--ink-soft,#2C4468)}.ds-facts dd{margin:0;font-weight:500}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Solar Field at Noon",
+    "overview": "The lab is Babcock Ranch's solar field seen from the air under a bright Florida sky. Everything is a panel: rectangular, square-cornered, set in rows, shaded by where the sun is. The page reads top to bottom as sky, horizon, array and inverter monitor, then a run of deep-blue product bands, then sky again for the facts. The cursor is the sun. The hero panels follow it, the panels that spell RSL throw white glints, and each product image sits in a panel frame that tilts toward the pointer.\n\nDensity is calm and generous. Large heavy display type sits on open sky, and status reads in a plain monitor voice (\"Live on iPhone and web\", \"In development\", \"Waitlist, launching early 2027\"). There is one palette family. The whole site lives in sky and photovoltaic blues, and products are told apart by name, pitch and image, never by their own colours. The only warm colour is sunlight.\n\nMotion is slow, eased and physical: panels track, glints travel, rows reveal once. Nothing bounces, and nothing animates for decoration alone. When the visitor asks for reduced motion, the field renders one still frame and every loop stops.",
+    "keyCharacteristics": [
+      "Sky, field and navy-monitor bands stacked like an aerial view.",
+      "Square-cornered panels everywhere; the only round shapes are the sun and the status lamps, plus Ripple Pool's round board image.",
+      "One family of blues; sun yellow appears only as light.",
+      "Heavy Bricolage Grotesque display set tight against a plain Hanken Grotesk body.",
+      "Status shown by lamp shape as well as colour: a solid pulsing sun for live, half-filled for waitlist, dashed for in development."
+    ],
+    "rules": [
+      {
+        "name": "The Sunlight Only Rule",
+        "body": "Yellow is light, never paint. It appears only where the sun would: the sun, the live lamp, the glint core, selection, the skip link and the dark-mode focus ring. It never fills a surface, a button or a heading.",
+        "section": "colors"
+      },
+      {
+        "name": "The One Sky Rule",
+        "body": "Every product is shown in the lab's blues: band backgrounds, inks, buttons and duotoned images. A product's own brand colour never appears on this site.",
+        "section": "colors"
+      },
+      {
+        "name": "The Plain Voice Rule",
+        "body": "Status and labels are set in sentence case in the body face. There are no uppercase tracked labels and no small lines above headings. The display face is only for names and titles.",
+        "section": "typography"
+      },
+      {
+        "name": "The Only Panels Lift Rule",
+        "body": "Only framed product images cast drop shadows. Bands, buttons, the monitor and the facts table stay flat; the sun halo and lamp glows are light, not lift.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do build new surfaces from square panels in rows, with corners at `rounded.none`.",
+      "Do keep every product in the lab's blues and duotone its imagery to #081733 / #2E64C2 / #E6F2FC before shipping.",
+      "Do show status with lamp shape plus plain words (live, waitlist, in development), never with colour alone.",
+      "Do give each dark band its own `--focus` colour so the 3px focus ring stays visible.",
+      "Do gate every loop and tilt behind `prefers-reduced-motion` and leave a still, complete state.",
+      "Do use `ease-out` (cubic-bezier(0.16, 1, 0.3, 1)) for all state and reveal transitions."
+    ],
+    "donts": [
+      "Don't use sun yellow as a surface, button or text colour; it is light only.",
+      "Don't round cards, buttons or bands. The sun, the lamps and the Ripple Pool board are the only circles.",
+      "Don't introduce a product's own brand colours on this site.",
+      "Don't add drop shadows to anything except framed product images; the sun halo and lamp glows are light, not elevation.",
+      "Don't add uppercase tracked labels or small lines above headings; status speaks in sentence case.",
+      "Don't add animation beyond the field, the glint, the tilt, the one-time reveal and the live-lamp pulse."
+    ]
+  }
+}

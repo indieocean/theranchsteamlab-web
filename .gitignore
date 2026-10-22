@@ -1,0 +1,15 @@
+.DS_Store
+
+# AI tool installs (vendored skills and downloaded binaries)
+.agents/
+.claude/
+.codex/
+.cursor/
+.grok/
+
+# Impeccable local-only state
+.impeccable/review/
+.impeccable/tmp/
+.impeccable/questions/
+.impeccable/hook.cache.json
+.impeccable/config.local.json

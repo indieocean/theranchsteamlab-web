@@ -1,0 +1,44 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;600;800&family=Spectral:ital,wght@1,400;1,600&display=swap" rel="stylesheet">
+<style>
+html,body{margin:0;width:1440px;height:900px;overflow:hidden;background:#D6ECF7;font-family:'Libre Franklin',sans-serif;color:#0F2A47}
+.chart{position:absolute;inset:0}
+nav{position:absolute;top:28px;left:40px;right:40px;display:flex;justify-content:space-between;align-items:center;font-size:14px;letter-spacing:.18em;text-transform:uppercase;font-weight:600}
+nav .mark{display:flex;gap:14px;align-items:center}
+nav .mono{width:40px;height:40px;border:2px solid #0F2A47;border-radius:50%;display:grid;place-items:center;font-weight:800;letter-spacing:0;font-size:13px}
+nav ul{display:flex;gap:36px;list-style:none;margin:0;padding:0}
+.title{position:absolute;left:64px;top:150px;width:560px;border:2px solid #0F2A47;background:rgba(242,228,180,.92);padding:32px 36px}
+.title small{display:block;font-size:12px;letter-spacing:.24em;text-transform:uppercase}
+.title h1{font-size:62px;line-height:1.02;margin:16px 0 18px;font-weight:800;letter-spacing:-.02em}
+.title p{font-family:Spectral,serif;font-style:italic;font-size:21px;line-height:1.4;margin:0 0 24px}
+.title a{display:inline-block;background:#0F2A47;color:#F2E4B4;padding:14px 22px;text-decoration:none;font-weight:600;letter-spacing:.06em}
+.light{position:absolute;font-size:13px}
+.light b{display:block;letter-spacing:.28em;font-size:15px}
+.light i{font-family:Spectral,serif;font-size:15px;color:#C21E7D}
+.light a{color:#0F2A47;font-weight:600}
+.snd{position:absolute;font-family:Spectral,serif;font-style:italic;font-size:14px;color:#2b4e6e}
+</style></head><body>
+<svg class="chart" viewBox="0 0 1440 900" preserveAspectRatio="none">
+ <rect width="1440" height="900" fill="#EEF7FC"/>
+ <path d="M0 520 C200 470 330 600 520 560 S880 640 1040 600 1300 700 1440 660 L1440 900 0 900Z" fill="#D6ECF7"/>
+ <path d="M0 640 C220 600 360 700 560 680 S900 760 1080 720 1320 800 1440 790 L1440 900 0 900Z" fill="#8CC8E8"/>
+ <path d="M1010 0 C980 140 1060 220 1030 330 S1120 470 1200 520 1440 560 1440 560 L1440 0Z" fill="#F2E4B4" stroke="#0F2A47" stroke-width="2"/>
+ <g fill="none" stroke="#0F2A47" stroke-opacity=".35" stroke-width="1">
+  <path d="M0 420 C240 380 360 500 560 470 S900 540 1000 500"/>
+  <path d="M0 330 C200 300 380 400 600 380 S860 430 980 410" stroke-dasharray="6 6"/>
+  <path d="M0 760 C260 720 420 820 640 800 S1000 860 1440 850"/>
+ </g>
+ <path d="M1120 300 C1000 420 860 470 760 520 S560 640 420 720 300 780 240 820" fill="none" stroke="#C21E7D" stroke-width="2.5" stroke-dasharray="14 8"/>
+ <circle cx="1120" cy="300" r="14" fill="#F2E4B4" stroke="#0F2A47" stroke-width="3"/>
+ <g fill="#C21E7D"><path d="M760 520 l10 -30 10 30z"/><circle cx="420" cy="720" r="9" fill="none" stroke="#C21E7D" stroke-width="3"/><path d="M240 820 l10 -30 10 30z"/></g>
+ <g stroke="#0F2A47" stroke-width="1" fill="none" opacity=".6"><circle cx="1290" cy="760" r="80"/><circle cx="1290" cy="760" r="60"/><path d="M1290 670 v180 M1200 760 h180"/></g>
+</svg>
+<nav><div class="mark"><span class="mono">RSL</span>The Ranch STEAM Lab</div><ul><li>Products</li><li>About</li><li>Contact</li></ul></nav>
+<div class="title"><small>Charted from Babcock Ranch, Florida</small><h1>Small tools. Calm games. Built at the Ranch.</h1><p>We're a family-owned lab in Babcock Ranch, Florida, making games, apps and AI experiments.</p><a>See what we make</a></div>
+<div class="light" style="left:790px;top:470px"><b>RIPPLE POOL</b><i>Fl W 4s · Live on iPhone and web</i><br><a>Play on the web</a></div>
+<div class="light" style="left:446px;top:690px"><b>HUNCHWELL</b><i>Buoy, unlit · Waitlist, early 2027</i><br><a>Get an invite</a></div>
+<div class="light" style="left:270px;top:800px"><b>SNAKEDOKU</b><i>PA · In development</i></div>
+<div class="snd" style="left:700px;top:380px">12</div><div class="snd" style="left:900px;top:620px">18</div><div class="snd" style="left:640px;top:760px">24</div><div class="snd" style="left:120px;top:560px">9</div>
+<div class="light" style="left:1150px;top:285px"><b>HOME PORT</b><i>The lab</i></div>
+</body></html>
