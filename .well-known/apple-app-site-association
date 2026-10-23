@@ -1,0 +1,12 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": ["3P2Q7V729Y.com.TheRanchSteamLab.Snakedoku"],
+        "components": [
+          { "/": "/snakedoku/daily*", "comment": "Opens today's Snakedoku daily puzzle" }
+        ]
+      }
+    ]
+  }
+}
